@@ -1,0 +1,14 @@
+zip -x *.map *.prt *.rad *.srf *.bak *.*~ *~ *.git *.xcf.* -r ut4_malvinas.pk3 *
+mv ut4_malvinas.pk3 ~/.urt/q3ut4/ut4_malvinas.pk3
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/rockyiii/ut4_malvinas.git
+git push -u origin master
+
+Push an existing repository from the command line
+
+git remote add origin https://github.com/rockyiii/ut4_malvinas.git
+git push -u origin master
